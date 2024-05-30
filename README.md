@@ -22,7 +22,7 @@ This project aims to analyze sales data from the Crystal Pool dataset. The analy
 - `Window Function`: To calculate cumulative totals across specified partition.
 
 ## Normalization
-Normalization is the process of organizing data in a database to reduce redundancy and improve data integrity. In this project, normalization involved decomposing the unnormalized `crystal_pool` table into multiple related tables, each containing a specific aspect of the data. This approach ensures that data is stored in a structured manner, making it easier to maintain and query. The [normalization process](https://github.com/zinnydigits/crystalpool/blob/main/code.md), [raw dataset](https://github.com/zinnydigits/crystalpool/blob/main/crystals.csv) and the [normalized dataset](https://github.com/zinnydigits/crystalpool/blob/main/normalized) are all in the crystalpool repository.
+Normalization is the process of organizing data in a database to reduce redundancy and improve data integrity. In this project, normalization involved decomposing the unnormalized `crystal_pool` table into multiple related tables, each containing a specific aspect of the data. This approach ensures that data is stored in a structured manner, making it easier to maintain and query. The [normalization process](https://github.com/zinnydigits/crystalpool/blob/main/code.md), [raw dataset](https://github.com/zinnydigits/crystalpool/blob/main/crystals.csv) and the [normalized dataset](https://github.com/zinnydigits/crystalpool/blob/main/normalized.xlsx) are all in the crystalpool repository.
 
 ## Code
 ``` sql
